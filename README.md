@@ -2,7 +2,7 @@
 
 # firefox-bookmarks-merger
 
-Tool for merging firefox bookmarks backups. Designed for people who don't want to use cloud based tools like firefox sync, plugins, want to version control their session files or have any other reason to do this locally.
+Tool for merging firefox bookmarks backups. Designed for people who don't want to use cloud based tools like firefox sync, plugins, want to version control their bookmarks backups or have any other reason to do this locally.
 
 ## Usage
 
@@ -17,6 +17,8 @@ In top menu `Bookmarks` under `Show All Bookmarks` there is button `Import and B
 Creating simple tree structure showing all firefox bookmarks in menu, toolbar and starred.
 
 `python firefox_bookmarks_merger --list --files bookmarks-20XX-XX-XX.json --output output.txt`
+
+[Example output](https://github.com/james-cube/firefox-bookmarks-merger/blob/master/tests/pretty_print_expected.txt)
 
 #### Merge
 
@@ -45,3 +47,7 @@ optional arguments:
                         List of files to process
   --output OUTPUT       Output file
 ```
+
+### Other modules 
+
+I also developed similar tool for session management [Firefox Session Merger](https://github.com/james-cube/firefox-session-merger)
