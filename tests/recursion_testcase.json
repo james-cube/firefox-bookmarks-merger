@@ -1,0 +1,46 @@
+ {
+    "root": "placesRoot",
+    "type": "text/x-moz-place-container",
+    "guid": "root________",
+    "title": "",
+    "children": [
+        {
+            "root": "bookmarksMenuFolder",
+            "type": "text/x-moz-place-container",
+            "guid": "menu________",
+            "title": "Bookmarks Menu",
+            "children": [
+                {
+                    "type": "text/x-moz-place",
+                    "uri": "https://www.mozilla.org/en-US/contribute/",
+                    "title": "Get Involved"
+                },
+                {
+                    "type": "text/x-moz-place-separator"
+                },
+                {
+                    "type": "text/x-moz-place-container",
+                    "title": "Mozilla Firefox",
+                    "children": [
+                        {
+                            "type": "text/x-moz-place-container",
+                            "title": "Mozilla Firefox",
+                            "children": [
+                                {
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.mozilla.org/en-US/about/",
+                                    "title": "About Us"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text/x-moz-place",
+                            "uri": "https://www.mozilla.org/en-US/firefox/help/",
+                            "title": "Help and Tutorials"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

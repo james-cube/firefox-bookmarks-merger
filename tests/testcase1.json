@@ -1,0 +1,76 @@
+{
+    "root": "placesRoot",
+    "type": "text/x-moz-place-container",
+    "guid": "root________",
+    "title": "",
+    "children": [
+        {
+            "root": "bookmarksMenuFolder",
+            "type": "text/x-moz-place-container",
+            "guid": "menu________",
+            "title": "Bookmarks Menu",
+            "children": [
+                {
+                    "type": "text/x-moz-place",
+                    "uri": "place:type=6&sort=14&maxResults=10",
+                    "guid": "rrIiCkGVT1b-",
+                    "title": "Recent Tags"
+                },
+                {
+                    "type": "text/x-moz-place-separator",
+                    "guid": "mHo5yaLMRjN1"
+                },
+                {
+                    "type": "text/x-moz-place-container",
+                    "guid": "Yn_UFwGQhpa-",
+                    "title": "Mozilla Firefox",
+                    "children": [
+                        {
+                            "type": "text/x-moz-place",
+                            "uri": "https://www.mozilla.org/en-US/firefox/help/",
+                            "guid": "_6Su581jdUc5",
+                            "title": "Help and Tutorials",
+                            "iconuri": "http://www.mozilla.org/2005/made-up-favicon/5-1477239235251"
+                        },
+                        {
+                            "type": "text/x-moz-place",
+                            "uri": "https://www.mozilla.org/en-US/firefox/customize/",
+                            "guid": "5JFTTrtbRYpY",
+                            "title": "Customize Firefox",
+                            "iconuri": "http://www.mozilla.org/2005/made-up-favicon/6-1477239235253"
+                        },
+                        {
+                            "type": "text/x-moz-place",
+                            "uri": "https://www.mozilla.org/en-US/contribute/",
+                            "guid": "wnf8syCGwHlG",
+                            "title": "Get Involved",
+                            "iconuri": "http://www.mozilla.org/2005/made-up-favicon/7-1477239235255"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "root": "toolbarFolder",
+            "type": "text/x-moz-place-container",
+            "guid": "toolbar_____",
+            "title": "Bookmarks Toolbar",
+            "children": [
+                {
+                    "type": "text/x-moz-place",
+                    "uri": "place:sort=8&maxResults=10",
+                    "guid": "SflmmGYdp64f",
+                    "title": "Most Visited"
+                }
+            ]
+        },
+        {
+            "root": "unfiledBookmarksFolder",
+            "type": "text/x-moz-place-container",
+            "guid": "unfiled_____",
+            "title": "Other Bookmarks",
+            "children": [
+            ]
+        }
+    ]
+}

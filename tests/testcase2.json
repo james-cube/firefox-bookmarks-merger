@@ -1,0 +1,95 @@
+{
+    "root": "placesRoot",
+    "type": "text/x-moz-place-container",
+    "guid": "root________",
+    "title": "",
+    "children": [
+        {
+            "root": "bookmarksMenuFolder",
+            "type": "text/x-moz-place-container",
+            "guid": "menu________",
+            "title": "Bookmarks Menu",
+            "children": [
+                {
+                    "type": "text/x-moz-place",
+                    "uri": "place:type=6&sort=14&maxResults=10",
+                    "guid": "rrIiCkGVT1b-",
+                    "title": "Recent Tags"
+                },
+                {
+                    "type": "text/x-moz-place-separator",
+                    "guid": "mHo5yaLMRjN1"
+                },
+                {
+                    "type": "text/x-moz-place-container",
+                    "guid": "Yn_UFwGQhpa-",
+                    "title": "Mozilla Firefox",
+                    "children": [
+                        {
+                            "type": "text/x-moz-place",
+                            "uri": "https://www.mozilla.org/en-US/contribute/",
+                            "guid": "wnf8syCGwHlG",
+                            "title": "Get Involved",
+                            "iconuri": "http://www.mozilla.org/2005/made-up-favicon/7-1477239235255"
+                        },
+                        {
+                            "type": "text/x-moz-place",
+                            "uri": "https://www.mozilla.org/en-US/about/",
+                            "guid": "o5gCn16HynI9",
+                            "title": "About Us",
+                            "iconuri": "http://www.mozilla.org/2005/made-up-favicon/8-1477239235258"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "root": "toolbarFolder",
+            "type": "text/x-moz-place-container",
+            "guid": "toolbar_____",
+            "title": "Bookmarks Toolbar",
+            "children": [
+                {
+                    "type": "text/x-moz-place",
+                    "uri": "place:sort=8&maxResults=10",
+                    "guid": "SflmmGYdp64f",
+                    "title": "Most Visited"
+                },
+
+                {
+                    "type": "text/x-moz-place-separator",
+                    "guid": "sjCoeaz4dA3P"
+                },
+                {
+                    "type": "text/x-moz-place-container",
+                    "guid": "R8xDzXH6NuXR",
+                    "title": "directory",
+                    "children": [
+                        {
+                            "type": "text/x-moz-place",
+                            "uri": "https://www.mozilla.org/en-US/firefox/central/",
+                            "guid": "ZLMnvV6Lvp6A",
+                            "title": "Getting Started",
+                            "iconuri": "https://support.cdn.mozilla.net/static/sumo/img/firefox-16.png?v=1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "root": "unfiledBookmarksFolder",
+            "type": "text/x-moz-place-container",
+            "guid": "unfiled_____",
+            "title": "Other Bookmarks",
+            "children": [
+                {
+                    "type": "text/x-moz-place",
+                    "uri": "https://www.mozilla.org/en-US/about/",
+                    "guid": "o5gCn16HynI9",
+                    "title": "About Us",
+                    "iconuri": "http://www.mozilla.org/2005/made-up-favicon/8-1477239235258"
+                }
+            ]
+        }
+    ]
+}
