@@ -90,10 +90,10 @@ def print_pretty_url_tree(bookmarks, output, padding = 1):
     if bookmarks != None:
         for bookmark in bookmarks:
             if bookmark.get("type") == "text/x-moz-place-container":
-                output.write((padding * "\t") + bookmark.get("title") + "\n")
+		output.write((padding * "\t") + unicode(bookmark.get("title")).encode('utf-8') + "\n")
                 print_pretty_url_tree(bookmark.get("children"), output, padding + 1)
             elif bookmark.get("type") == "text/x-moz-place":
-                output.write((padding * "\t") + bookmark.get("title") + " - " + bookmark.get("uri") + "\n")
+		output.write((padding * "\t") + unicode(bookmark.get("title")).encode('utf-8') + " - " + unicode(bookmark.get("uri")).encode('utf-8') + "\n")
             else:
                 output.write((padding * "\t") + "----\n")
 
