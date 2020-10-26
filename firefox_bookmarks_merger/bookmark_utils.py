@@ -53,8 +53,9 @@ def merge_into_bookmarks(main_bookmarks, bookmarks):
         if has_duplicate(main_bookmarks, bookmark):
             remove_from_tree(bookmarks, bookmark)
     strip_ids(bookmarks)
-    for bookmark in bookmarks:
-        main_bookmarks.append(bookmark)
+    if bookmarks:
+        for bookmark in bookmarks:
+            main_bookmarks.append(bookmark)
 
 def merge_into(main_bookmarks_object, other_bookmarks_object):
     merge_into_bookmarks(
